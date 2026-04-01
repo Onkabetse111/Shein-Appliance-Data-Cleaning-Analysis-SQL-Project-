@@ -45,8 +45,8 @@ The raw dataset contained multiple issues:
 - Removed rows missing critical fields (price, product name, URL)
 
 ### 2. Removing Duplicates
-- Identified duplicates using product_url
-- Removed duplicates using SELECT DISTINCT
+- Identified duplicates using multiple fields (product name, price, discount, category, ranking)
+- Removed duplicates without relying on product_url due to high missing values
 
 ### 3. Data Type Conversion
 - Converted:
@@ -104,8 +104,8 @@ Analysis of discount levels shows no measurable variation in average sales, with
 
 This suggests that:
 
-The sales data may be incomplete or inconsistent
-The dataset does not fully capture product demand
+- The sales data may be incomplete or inconsistent
+- The dataset does not fully capture product demand
 
 ---
 
