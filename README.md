@@ -137,13 +137,16 @@ Exploratory Data Analysis (EDA)
 
 ---
 
-### 📁 Project Structure
+## 📁 Project Structure
+
+```
 shein-data-cleaning-sql/
 │
+├── shein_appliances.csv        # Raw dataset
+├── shein_products_cleaned.sql  # Data cleaning script
+├── shein_productd_eda.sql      # Analysis queries
 ├── README.md
-├── shein_products_cleaned.sql   # Data cleaning script
-├── shein_products_eda.sql       # Analysis queries
-
+```
 ---
 
 ### 🚀 Key Skills Demonstrated
